@@ -1,0 +1,208 @@
+<html>
+<head>
+	<title>
+		CoderSiva | Card
+	</title>
+</head>
+
+<style>
+
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		font-family:sans-serif;
+	}
+
+	body{
+		background:-webkit-linear-gradient(20deg,#EF798A,#F9F5E3);
+
+	}
+
+
+	.container{
+		position:relative;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		min-height:100vh;
+		max-width:100%;
+
+	}
+
+	.card{
+		position: aboslute;
+		height:400px;
+		width: 400px;
+		background: #fff;
+		padding:100px;
+		margin:20px 30px;
+		border-radius:8px;
+		overflow:hidden;
+
+
+
+	}
+	.content{
+		transform:translateY(-50px);
+	}
+	.content h2{
+		text-align:center;
+		font-weight:bold;
+
+
+	}
+	.content p{
+		margin:5px 0px;
+		text-align:center;
+		
+
+		
+	}
+
+	.mid{
+		
+		display:inline-flex;
+		margin:30px;
+		transform:translateX(-100px);
+
+		
+
+
+
+
+	}
+	.mid h3{
+		font-weight:bolder;
+		color:#7E2E84;
+		
+	}
+	.mid .a{
+		text-align:center;
+		padding:0 20px;
+		transform:translateY(-50px);
+
+	}
+	.mid .b{
+		text-align:center;
+		padding:0 20px;
+		transform:translateY(-50px);
+	}
+	.mid .c{
+		text-align:center;
+		padding:0 20px;
+		transform:translateY(-50px);
+	}
+	.btn{
+		text-align: center;
+		display:inline-flex;
+		transform:translateX(-75px);
+
+	}
+	.btn-1{
+		margin: 20px;
+		
+		
+
+	}
+	.btn-2{
+		margin:20px;
+	}
+
+	button{
+		padding:15px 40px;
+		transform:translateY(-65px);
+
+	}
+	.btn-1 button{
+		background-color:#7E2E84;
+		border:none;
+		overflow:hidden;
+		border-radius:5px;
+		color: #fff;
+		font-weight: bolder;
+	}
+	.btn-2 button{
+		background-color:#D14081;
+		border:none;
+		overflow:hidden;
+		border-radius:5px;
+		color: #fff;
+		font-weight: bolder;
+	}
+	
+	.img img{
+		height:100px;
+		width: 100px;
+		object-fit:cover;
+		border-radius: 50%;
+		transform:translateY(-68px);
+		margin-left:45px;
+
+	}
+
+	img::after{
+		content:'';
+		position:absolute;
+		width: 5px;
+		height:2px;
+		color: green;
+		border-radius:50%;
+		background:green;
+	}
+
+
+</style>
+
+
+<body>
+
+	<div class="container">
+			<div class="card">
+				<div class="img">
+					<img src="siva.jpg" alternate="profile">
+					<div class="content">
+						<h2>siva</h2>
+						<p>I enjoy drinking a cup of coffee every day</p>
+					</div>
+					<div class="mid">
+						<div class="a">
+							<h3>172</h3>
+							<p>POSTS</p>
+						</div>
+						<div class="b">
+							<h3>500M</h3>
+							<p>FOLLOWERS</p>
+						</div>
+						<div class="c">
+							<h3>2</h3>
+							<p>FOLLOWING</p>
+						</div>
+
+					</div>
+					<div class="btn">
+					<div class="btn-1">
+
+						<button>FOLLOW</button>
+						
+					</div>
+					<div class="btn-2">
+						<button>MESSAGE</button>
+					</div>
+					</div>
+				</div>
+			</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
